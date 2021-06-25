@@ -1,123 +1,143 @@
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>父亲 | Gridea</title>
-<link rel="shortcut icon" href="https://shuguanxia.github.io/favicon.ico?v=1624589371028">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://shuguanxia.github.io/favicon.ico?v=1624589409495">
 <link rel="stylesheet" href="https://shuguanxia.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="父亲 | Gridea - Atom Feed" href="https://shuguanxia.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-  <meta name="description" content="温故而知新" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="温故而知新">
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://shuguanxia.github.io">
-  <img class="avatar" src="https://shuguanxia.github.io/images/avatar.png?v=1624589371028" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://shuguanxia.github.io">
+        <img src="https://shuguanxia.github.io/images/avatar.png?v=1624589409495" class="site-logo">
+        <h1 class="site-title">Gridea</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://shuguanxia.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="current-tag-container">
-            <h2 class="title">
-                标签：# 父亲
-            </h2> 
-        </div>
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://shuguanxia.github.io/post/xie-zai-lesslessjin-se-de-li-ming-greatergreater-zhi-zuo-qian/">
-        <h2 class="post-title">写在《金色的黎明》制作前：</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2021-06-24
-        </span>
-        <span>
-          1 min read
-        </span>
-        
-          <a href="https://shuguanxia.github.io/tag/ynbB36lqn/" class="post-tag">
-            # 父亲
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        <p>写在《金色的黎明》制作前：<br>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <h2 class="current-tag">标签: 父亲</h2>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://shuguanxia.github.io/post/xie-zai-lesslessjin-se-de-li-ming-greatergreater-zhi-zuo-qian/">
+                  <h2 class="post-title">写在《金色的黎明》制作前：</h2>
+                </a>
+                <div class="post-date">
+                  2021-06-24
+                </div>
+                <div class="post-abstract">
+                  <p>写在《金色的黎明》制作前：<br>
 这是一份什么样的礼物？为什么想送这份礼物？实际上能做什么呢？<br>
 我想为父亲做点什么？阻止变老，让他回到年轻时，多增加一天的寿命？<br>
 和儿子在一起时，我想起33年前，父亲和0岁的我在一起时是怎样的。<br>
 我惶恐，焦心，害怕完成不了这部影片，又像从前众多灵光乍现的”Idea”一样，仅仅只是停留在Idea，激动一时后，趁你不注意，一溜烟的跑远了。<img src="https://shuguanxia.github.io/post-images/1624531988060.jpg" alt="" loading="lazy"></p>
 
-      </div>
-    </article>
+                </div>
+              </div>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
   
 </div>
 
-        <div class="pagination-container">
-  
-  
-</div>
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://shuguanxia.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+        </div>
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
   </body>
 </html>
